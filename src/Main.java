@@ -1,7 +1,13 @@
-//TIP To <b>Run</b> code, press <shortcut actionId="Run"/> or
-// click the <icon src="AllIcons.Actions.Execute"/> icon in the gutter.
-public class Main {
+public class Main{
     public static void main(String[] args) {
+        Conta conta1 = new ContaCorrente(123, 0);
+        Conta conta2 = new ContaPoupanca(456, 50);
+
+        conta1.mostrarSaldo();
+        conta2.mostrarSaldo();
+
+
+
 
     }
 }
